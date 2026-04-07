@@ -19,7 +19,7 @@ const ffmpeg = spawn("ffmpeg", [
   "-c", "copy",
   "-f", "hls",
   "-hls_time", "2",
-  "-hls_list_size", "6",
+  "-hls_list_size", "10",
   "-hls_flags", "delete_segments",
   `${HLS_DIR}/index.m3u8`
 ]);
