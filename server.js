@@ -11,7 +11,7 @@ if (!fs.existsSync(HLS_DIR)) {
 }
 
 // ⚠️ ВСТАВ СВІЙ ПОВНИЙ TS ЛІНК ТУТ
-const STREAM_URL = "http://livego.club:8080/live/pAcMcDYE6JeZ/d6c58NDphzRa/281097.ts";
+const STREAM_URL = "http://livego.club:8080/live/pAcMcDYE6JeZ/d6c58NDphzRa/281096.ts";
 
 // 👇 запускаємо ffmpeg (вбудований в систему Render)
 const ffmpeg = spawn("ffmpeg", [
