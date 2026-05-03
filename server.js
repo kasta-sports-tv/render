@@ -11,7 +11,7 @@ if (!fs.existsSync(HLS_DIR)) {
 }
 
 // ⚠️ ВСТАВ СВІЙ ПОВНИЙ TS ЛІНК ТУТ
-const STREAM_URL = "http://livego.club:8080/live/pAcMcDYE6JeZ/d6c58NDphzRa/281096.ts";
+const STREAM_URL = "http://stb.sultan-smart.workers.dev/?Host=a.stroj-bt.com:89&Mac=00:1A:79:E7:0B:82&ID=6801.ts";
 
 // 👇 запускаємо ffmpeg (вбудований в систему Render)
 const ffmpeg = spawn("ffmpeg", [
